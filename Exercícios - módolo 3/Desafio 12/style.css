@@ -65,6 +65,7 @@ section#img02{
     background-image: url(imagens/background002.jpg);
     background-position: right center;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 a{
@@ -78,6 +79,12 @@ a:hover{
     border-radius: 3px;
 }
 
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background-color: black;
+     color: white;
+     text-align: center;
+}
 
 
 
