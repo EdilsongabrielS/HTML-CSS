@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+div#tudo{
+    overflow-x: auto;
+}
+
+table{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: 500px;
+    border-collapse: collapse;
+    
+}
+tr, th, td{
+    padding: 3px;
+    border: 1px solid #000000;
+}
+
+thead, .m1, .m2{
+    color: white;
+    background-color: rgb(48, 48, 48);
+}
+.numeros{
+    text-align: center;
+}
+.m1, .m2{
+    text-align: left;
+}
