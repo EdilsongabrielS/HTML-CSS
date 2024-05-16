@@ -1,0 +1,100 @@
+Hierarquia de tabelas
+
+<table> = tabela
+<tr> = linhas
+<th> = cabeçalho
+<td> = Dado
+Alinhamento horizontal = text-align left ++ right
+Ainhamento vertical = vertical-align bottom + midle + top
+
+
+<th> usar quando quiser dar um título.
+<td> usar quando for um dado.
+
+exemplo de class = para números usar class="numeros" e mudar o alinhamento.
+
+
+Anatomia da tabela
+
+Table
+
+TEAD 
+    TR, TD, TH
+TODY
+    TR, TD, TH
+TFOOTER
+    TR, TD, TH
+
+<caption> = legenda acima da tabela.
+
+scope="col" = escopo da coluna, significa que o th contém um scopo com vários td que são sua coluna.
+escopo de col e linha unica: colspan=""
+escopo para col com mais de uma linha scope="colgroup" ou "rowgroup"
+
+
+efeito zebrado: usar pseudo classe tr:child(2n){}
+
+
+
+onde 2n são pulos das linhas ou usar par ou impar.
+odd=impar
+aven=par
+
+
+
+Colar título da tabela.
+table{ 
+position:relative
+}
+isso deixa a tabela inteira com a tabela relativa.
+
+
+
+adicionar o caminha thead > tr > th{
+positio: sticky;
+top: 0; ou -1px; Cola o head no topo do site
+adicionar o background igual o do head
+
+
+meclando as células.
+
+Fazendo uma célula ocupar 2 colunas.
+colspan="2"
+
+dentro do td.
+
+
+
+F ocupando 3 linhas =. Rowpan="3"
+
+
+agrupando com colgroup:
+
+<colgroup>
+    <col> = adicionar class
+    <col class="nome"
+</colgroup>
+
+usando o style
+col.nome{}
+pode alterar o estilo da coluna inteira.
+
+
+
+Responsividade de tabela:
+
+Botar a tabela toda na div com id
+
+ficará
+div#container{
+overflow-x:auto;
+}
+
+só a tabela terá rolagem lateral
+
+
+
+
+
+
+
