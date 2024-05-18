@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="../cadastro.php" method="post" autocomplete="on">
+     <p>
+         <label for="iusu">Nome</label>
+            <input type="text" autocomplete="name" minlength="5" placeholder="Nome completo" size="40" required>
+     </p>
+     <p>
+        <label for="imedia">Média</label>
+        <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.1" required>
+     </p>
+     <p><label for="iper" >Períódo Letivo</label>
+        <input type="month" name="per" id="iper" value="2022-07">
+    </p>
+    <p>
+        <label for="idia">Dia da Prova</label>
+        <input type="date" nome="dia" id="idia">
+    </p>
+    <p>
+        <label for="hora">Hora da prova</label>
+        <input type="time" name="hora" id="hora">
+    </p>
+     <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+     </p>
+
+     
+
+
+    </form>
+    
+</body>
+</html>
