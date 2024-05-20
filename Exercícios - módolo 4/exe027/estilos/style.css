@@ -33,7 +33,7 @@ img{
     display: block;
     margin: auto;
 }
-
+img#print{display: none;}
 img#fone{display: block;}
 img#tablet{display: none;}
 img#pc{display: none;}
