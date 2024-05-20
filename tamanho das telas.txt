@@ -1,0 +1,23 @@
+/* Todas as demais midias*/
+/*typical Device Breackpoints 
+pequenas telas: até 600px
+celular: de 600px até 768px
+tablet: de 768 até 992px
+Desktop: de 992px até 1200px 
+Tv: acima de 12000px
+grantes telas:
+*/
+
+
+
+
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px)
+{
+    
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) 
+{
+    
+}
